@@ -17,5 +17,7 @@ module.exports = {
     'comma-dangle': 'off',
     'eol-last': 'off',
     'require-jsdoc': 'off',
+    'eol-last': 'error',
+    'no-dupe-keys': 'off'
   }
 }
