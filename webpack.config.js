@@ -32,6 +32,8 @@ module.exports = (env, argv) => {
     if (isDev) {
       base.push(new ESLintPlugin())
     }
+
+    return base
   }
 
   return {
